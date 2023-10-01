@@ -57,7 +57,7 @@ public class RegisterDemoTestNG {
 	public void launchApplication() {
 
 		// Set the system property for the chrome driver
-	  //   System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
+		//   System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		//Creating instance of Chrome driver
 		driver=new ChromeDriver();
@@ -598,12 +598,6 @@ public class RegisterDemoTestNG {
 
 
 	}
-
-
-
-
-
-
 
 
 
